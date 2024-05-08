@@ -39,16 +39,17 @@ body {
     border: 1px dotted blue;
 }
 
-button {
-    width: 100px;
-    padding: 4px;
+.social-btn {
+    display: inline-block;
+    width: 110px;
+    padding: 5px;
     border: 2px solid #444444;
     border-radius: 10px;
-    background: white;
     color: #444444;
+    text-decoration: 0;
 }
 
-button:hover {
+.social-btn:hover {
     box-shadow: 0 0 3px #2EC4B6;
 }
 
